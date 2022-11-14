@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ninjahamsters:rascal",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/rascal"
+			},
+			"geometry": {
+				"default": "geometry.rascal"
+			},
+			"animations": {
+				"move": "animation.rascal.move",
+				"setup": "animation.rascal.setup"
+			},      
+			"scripts": {
+				"animate": [
+					"setup",
+					{"move": "query.modified_move_speed"}
+				]
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#29745a",
+				"overlay_color": "#354155"
+			}
+		}
+	}
+}

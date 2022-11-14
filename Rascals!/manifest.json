@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Rascals!",
+		"description": "Rascals! Resource Pack",
+		"uuid": "e3f03793-1ea0-c30b-2b82-54e9d59442f8",
+		"version": [1, 3, 2],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["NinjaHamsters"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.1.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Rascals!",
+			"type": "resources",
+			"uuid": "f050c2ba-a882-7959-339c-d01b47ff8ece",
+			"version": [1, 3, 2]
+		}
+	]
+}
